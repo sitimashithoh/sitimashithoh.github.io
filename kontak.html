@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kontak</title>
+    <link rel="stylesheet" type="text/css" href="css.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  </head>
+  <body>
+    <table>
+      <div class="container">
+        <header>
+          <div class="logo">
+            <img
+              src="https://res.cloudinary.com/dc4jjh0f1/image/upload/v1599652189/5e11d490aa53a_xexrrt.jpg"
+              width="60"
+            />
+            Sensus Penduduk
+          </div>
+        </header>
+        <nav>
+          <ul>
+            <li><a href="indexs.html">Beranda</a></li>
+            <li><a href="informasi.html">Informasi</a></li>
+            <li><a href="kontak.html">Hubungi Kami</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+            <li><a href="daftar.html">DAFTAR</a></li>
+          </ul>
+        </nav>
+        <article>
+          <div class="isi">
+            <div class="judul">Kontak Saya</div>
+
+            <div class="row">
+              <div class="col-xl-6-col-md-12 col-sm-12">
+                <div class="contact_form">
+                  <div id="message"></div>
+                  <form
+                    id="contactfrom"
+                    class=""
+                    action="contact.php"
+                    name="contactfrom"
+                    method="post"
+                  >
+                    <div class="row row-fluid">
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <input
+                          type="text"
+                          name="first_name"
+                          id="first_name"
+                          class="form-control"
+                          placeholder="First Name"
+                        />
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                        <input
+                          type="email"
+                          name="email"
+                          id="email"
+                          class="form-control"
+                          placeholder="Your Email"
+                        />
+                      </div>
+                      <div class="col-lg-12 col-md-12 col-sm-12">
+                        <textarea
+                          class="form-control"
+                          name="comment"
+                          id="comment"
+                          rows="6"
+                          placeholder="Message"
+                        ></textarea>
+                      </div>
+                      <div class="text-center pd">
+                        <button
+                          type="submit"
+                          value="SEND"
+                          id="submit"
+                          class="btn btn-light btn-radius btn-brd grd1 btn-block"
+                        >
+                          Get a Quote
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <!--end col-->
+            </div>
+
+            <br />
+            <div class="media contact-info">
+              <div class="media-body">
+                <img
+                  src="https://res.cloudinary.com/dc4jjh0f1/image/upload/v1599652189/images_4_skmgx1.png"
+                  width="45px;"
+                  height="45px;"
+                />
+                <p>+620832597740</p>
+              </div>
+            </div>
+            <br />
+            <div class="media contact-info">
+              <div class="media-body">
+                <img
+                  src="https://res.cloudinary.com/dc4jjh0f1/image/upload/v1599652190/images_10_dg4hko.jpg"
+                  width="45px;"
+                  height="45px;"
+                />
+                <p>borahe1307@gmail.com</p>
+              </div>
+            </div>
+            <br />
+            <div class="media contact-info">
+              <div class="media-body">
+                <img
+                  src="https://res.cloudinary.com/dc4jjh0f1/image/upload/v1599652190/images_11_ojqo7w.jpg"
+                  width="45px;"
+                  height="30px;"
+                />
+                <p>Jl.Kramat Pulo Gg IV, Senen, Jakarta Pusat</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <footer>Copyright 2020 Siti Masithoh.com</footer>
+      </div>
+    </table>
+  </body>
+</html>

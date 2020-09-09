@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #e6e6e6;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  height: auto;
+  background: white;
+  margin: auto;
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+.logo {
+  font-size: 30px;
+  padding: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1a75ffd4;
+  border: 1px;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  margin: 15px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  opacity: 0.9;
+}
+
+article {
+  width: 98.8%;
+  height: auto;
+  border-radius: 3px;
+  margin: 20px;
+  border: 1px;
+  clear: both;
+}
+
+article p {
+  padding: 20px;
+  line-height: 1.5;
+}
+article .konten {
+  width: 23.5%;
+  height: auto;
+  margin: 20px;
+  border-radius: 3px;
+  border: 1px;
+  float: left;
+}
+
+article .isi {
+  width: 98.5%;
+  height: auto;
+  margin: 20px;
+  border-radius: 3px;
+  border: 1px;
+  float: left;
+}
+article .isi .judul {
+  font-size: x-large;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+article .isi p {
+  margin-top: 0;
+}
+article .isi img {
+  float: left;
+  margin: 20px;
+}
+
+article .konten img {
+  width: 95.8%;
+  height: 150px;
+  margin: 20px;
+}
+article .konten:hover {
+  opacity: 0.9;
+}
+article .konten .judul a {
+  margin-left: 5px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #020101;
+}
+
+article .konten a:hover {
+  opacity: 0.9;
+}
+
+h1 {
+  text-align: center;
+  /*ketebalan font*/
+  font-weight: 300;
+}
+
+.tulisan_login {
+  text-align: center;
+  /*membuat semua huruf menjadi kapital*/
+  text-transform: uppercase;
+}
+
+.kotak_login {
+  width: 350px;
+  background: white;
+  /*meletakkan form ke tengah*/
+  margin: 80px auto;
+  padding: 50px;
+}
+
+label {
+  font-size: 11pt;
+}
+
+.form_login {
+  /*membuat lebar form penuh*/
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+}
+
+.tombol_login {
+  background: #66c9e6;
+  color: black;
+  font-size: 15pt;
+  width: 50%;
+  height: 50%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+footer {
+  clear: both;
+  width: 98.8%;
+  height: auto;
+  text-align: center;
+  margin: 20px;
+  border-radius: 3px;
+  border-bottom: 1px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
